@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&family=Source+Code+Pro&display=swap');
+
 #content {
 max-width: 1600px;
 margin: 0 auto;
@@ -12,8 +14,16 @@ margin: 0 auto;
     text-align: center;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 body {
     background-color: #28666E;
+    font-family: Londrina-Solid;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
 }
 
 header {
@@ -24,8 +34,17 @@ main section {
     text-align: center;
 }
 
+h2 {
+    margin: 0;
+}
 footer {
     background-color: #28666E;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 footer h3 {
@@ -43,6 +62,7 @@ footer a:hover {
 nav a { 
     text-align: center;
     color: white;
+    padding: 35px;
 }
 nav a:hover {
     background-color: #033F63;
@@ -51,11 +71,18 @@ nav a:hover {
 
 .home-title {
     color:white;
+    font-family: Source-Code-Pro;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .book, .join {
     background-color: #dabfff;
     color: #033F63;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -67,9 +94,22 @@ nav a:hover {
     text-align: center;
 }
 
+.card-img {
+    border: 10px solid black;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+main section img {
+    box-sizing: border-box;
+}
 
 .msg {
     background-color: #dabfff;
+    font-size: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
@@ -79,4 +119,10 @@ nav a:hover {
 
 .msg p {
     color: #E59476;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
