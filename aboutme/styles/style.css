@@ -1,0 +1,27 @@
+/*aboutme*/
+
+body 
+{
+    background-color: #333333	;
+}
+
+p
+{
+    color: whitesmoke;
+}
+
+h1
+{
+    color: goldenrod;
+}
+h2, h3
+{
+    color: white;
+}
+
+img
+{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
