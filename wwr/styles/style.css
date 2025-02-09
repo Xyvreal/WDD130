@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&family=Macondo:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root{
+    --primary-color: #E2C2C6;
+    --secondary-color: #B9929F;
+    --accent1-color: #9C528B;
+    --accent2-color: #A44200;
+}
 #content {
     width:100%;
     max-width: 1600px;
@@ -24,11 +32,11 @@ body {
 }
 
 header {
-    background-color: white;
+    background-color: var(--accent2-color);
 }
 
 footer {
-    background-color: white;
+    background-color: var(--accent2-color);
     color: black;
 }
 
@@ -37,14 +45,17 @@ footer a {
     text-decoration:none;
 }
 
+footer p {
+    font-size: 1.2em;
+    filter: invert(100%)
+}
+
 footer a:hover {
-    color:black;
+    color:var(--accent1-color);
     
 }
 
-footer p {
-    font-size: 1.2em;
-}
+
 
 footer p a:hover {
     text-decoration: underline;
@@ -60,7 +71,7 @@ h4 {
 
 #backround {
     height: 725px;
-    background-color: white;
+    background-color: var(--accent1-color);
 }
 
 .button-box {
@@ -74,8 +85,8 @@ h4 {
 }
 
 .book:hover, .join:hover {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
 
 }
 
